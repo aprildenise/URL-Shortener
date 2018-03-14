@@ -1,0 +1,17 @@
+url-shortener
+functions:
+posting and getting urls
+take in long url
+    save url to a database
+        change it to a short url
+take in short url
+    check database for the short url
+        return long url
+        or return error if not found
+
+pages needed: 
+index page
+error page
+redirects
+    - when given a long url, redirect to page that gives short url
+    - when given a short url, redirect to a page that gives the long/original url
